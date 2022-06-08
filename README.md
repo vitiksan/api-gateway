@@ -68,6 +68,13 @@ You can find bash scripts to start zookeeper/kafka and create topics here: </br>
 `src/main/resources/kafka_initialization_win.sh`
 
 
+### Run in docker
+You can run this application in docker using such commands: </br>
+`mvn spring-boot:build-image` - will build and push new image </br>
+`docker run -it -p9099:8888 api-gateway:1.0.0` - will run your image in docker container
+
+Make sure you started docker on your machine first!
+
 
 
 
