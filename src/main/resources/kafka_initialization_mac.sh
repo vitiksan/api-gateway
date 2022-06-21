@@ -10,6 +10,6 @@ brew services restart kafka
 
 kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic electricity
 
-kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic water
+kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic water_usage
 
 kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic gas

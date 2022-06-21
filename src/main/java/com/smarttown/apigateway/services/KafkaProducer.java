@@ -1,10 +1,6 @@
 package com.smarttown.apigateway.services;
 
 
-import com.fasterxml.jackson.annotation.JsonValue;
-
-import org.apache.tomcat.util.json.JSONParser;
-import org.apache.tomcat.util.json.ParseException;
 import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
 import org.slf4j.Logger;
@@ -29,7 +25,7 @@ public class KafkaProducer {
     static {
         SENSOR_ID_PROPERTY.put("electricity", "meterId");
         SENSOR_ID_PROPERTY.put("gas", "sensor_id");
-        SENSOR_ID_PROPERTY.put("water", "sensor_id");
+        SENSOR_ID_PROPERTY.put("water_usage", "sensor_id");
     }
 
 
