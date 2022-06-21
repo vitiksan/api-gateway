@@ -25,7 +25,7 @@ public class KafkaProducer {
     static {
         SENSOR_ID_PROPERTY.put("electricity", "meterId");
         SENSOR_ID_PROPERTY.put("gas", "sensor_id");
-        SENSOR_ID_PROPERTY.put("water_usage", "sensor_id");
+        SENSOR_ID_PROPERTY.put("water_usage", "sensorId");
     }
 
 
