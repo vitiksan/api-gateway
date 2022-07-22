@@ -23,7 +23,8 @@ public class KafkaProducer {
     private static final Map<String, String> SENSOR_ID_PROPERTY = new HashMap<>();
 
     static {
-        SENSOR_ID_PROPERTY.put("electricity", "meterId");
+        SENSOR_ID_PROPERTY.put("electricity_usage", "sensorId");
+        SENSOR_ID_PROPERTY.put("electricity_quality", "sensorId");
         SENSOR_ID_PROPERTY.put("gas", "sensor_id");
         SENSOR_ID_PROPERTY.put("water_usage", "sensorId");
     }
